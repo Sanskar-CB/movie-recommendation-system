@@ -4,7 +4,7 @@
 
 An **end-to-end Machine Learning project** combining **Content-Based Filtering (TF-IDF & Cosine Similarity)** and **Collaborative Filtering (Matrix Factorization using SVD)** to deliver accurate and personalized movie recommendations.
 
----
+
 
 # 📌 Overview
 
@@ -17,7 +17,7 @@ Traditional recommendation systems often struggle with either the **cold-start p
 
 By integrating content information with collaborative user behavior, the system provides personalized recommendations for both **movie titles** and **individual users**.
 
----
+
 
 # 🚀 Features
 
@@ -30,7 +30,7 @@ By integrating content information with collaborative user behavior, the system 
 - 💾 Model Saving & Loading
 - 📋 Clean Recommendation Output
 
----
+
 
 # 🛠 Tech Stack
 
@@ -43,7 +43,7 @@ By integrating content information with collaborative user behavior, the system 
 | Visualization | Matplotlib, Seaborn |
 | Environment | Google Colab / Jupyter Notebook |
 
----
+
 
 # 📂 Dataset
 
@@ -72,7 +72,7 @@ Contains user interaction data including:
 - Plot Summaries
 - User Rating History
 
----
+
 
 # 🧠 Model Architecture
 
@@ -85,7 +85,7 @@ A **TF-IDF + Cosine Similarity** pipeline consisting of:
 - Cosine Similarity Matrix
 - Top-N Similar Movie Ranking
 
----
+
 
 ## 2️⃣ Collaborative Recommendation
 
@@ -100,7 +100,7 @@ A **Singular Value Decomposition (SVD)** model is trained on the user–movie ra
 | Rating Scale | 1–5 |
 | Evaluation | RMSE |
 
----
+
 
 # 🔄 Workflow
 
@@ -120,7 +120,6 @@ Similar Movies List     Predicted User Ratings
       Final Recommendation Output
 ```
 
----
 
 # ⚙️ Methodology
 
@@ -133,7 +132,7 @@ Movie metadata and user ratings are collected for model training and evaluation.
 | Movies Metadata | Content-Based Filtering |
 | User Ratings | Collaborative Filtering |
 
----
+
 
 ## Step 2 – Feature Engineering
 
@@ -144,7 +143,7 @@ Text preprocessing includes:
 - Stop-word removal
 - TF-IDF Vectorization
 
----
+
 
 ## Step 3 – Content-Based Similarity
 
@@ -161,13 +160,12 @@ Cosine Similarity Matrix
 Top-N Similar Movies
 ```
 
----
+
 
 ## Step 4 – Collaborative Filtering
 
 User rating records are transformed into the **Surprise** dataset format and trained using the **SVD algorithm** to estimate missing ratings.
 
----
 
 ## Step 5 – Recommendation Generation
 
@@ -179,7 +177,7 @@ Returns the **Top-N most similar movies** based on cosine similarity.
 
 Predicts ratings for unseen movies and recommends the highest-rated titles.
 
----
+
 
 # 📈 Results
 
@@ -194,7 +192,7 @@ Predicts ratings for unseen movies and recommends the highest-rated titles.
 
 The SVD model successfully predicts ratings for unseen movies and generates personalized recommendations based on user preferences.
 
----
+
 
 ## Content-Based Recommendation
 
@@ -209,7 +207,7 @@ The TF-IDF model effectively identifies movies with similar genres and narrative
 | Avatar | Guardians of the Galaxy |
 | Titanic | The Notebook |
 
----
+
 
 # 📊 Generated Outputs
 
@@ -222,7 +220,7 @@ The project generates:
 - 💾 Trained SVD Model
 - 📋 Recommendation Reports
 
----
+
 
 # 📁 Project Structure
 
@@ -248,7 +246,7 @@ movie-recommendation-system/
 └── LICENSE
 ```
 
----
+
 
 # ▶️ Installation
 
@@ -274,7 +272,7 @@ jupyter notebook notebooks/Movie_Recommendation.ipynb
 
 Or open the notebook directly in **Google Colab**.
 
----
+
 
 # 💻 Usage
 
@@ -289,7 +287,7 @@ Run the notebook to:
 - Evaluate model performance
 - Save trained models
 
----
+
 
 # 📚 Applications
 
@@ -300,7 +298,7 @@ Run the notebook to:
 - 📚 Book Recommendation Engines
 - 🛍️ Personalized Shopping Experiences
 
----
+
 
 # 🔮 Future Improvements
 
@@ -312,7 +310,7 @@ Run the notebook to:
 - Explainable Recommendations
 - Transformer-based Recommendation Systems
 
----
+
 
 # 📖 References
 
@@ -323,7 +321,7 @@ Run the notebook to:
 - Cosine Similarity
 - Singular Value Decomposition (SVD)
 
----
+
 
 # 👨‍💻 Author
 
@@ -333,14 +331,12 @@ Run the notebook to:
 
 **Harcourt Butler Technical University (HBTU), Kanpur**
 
----
+
 
 ## ⭐ Support
 
 If you found this project helpful, consider giving it a ⭐ on GitHub!
 
----
 
-## 📜 License
 
-This project is licensed under the **MIT License**.
+
