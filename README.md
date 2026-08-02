@@ -1,10 +1,6 @@
 # 🎬 Movie Recommendation System
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange.svg)
-![Surprise](https://img.shields.io/badge/Surprise-SVD-yellow.svg)
-![Status](https://img.shields.io/badge/Status-Completed-success.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 An **end-to-end Machine Learning project** combining **Content-Based Filtering (TF-IDF & Cosine Similarity)** and **Collaborative Filtering (Matrix Factorization using SVD)** to deliver accurate and personalized movie recommendations.
 
